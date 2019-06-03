@@ -2,7 +2,7 @@ extern crate rayon;
 use rayon::prelude::*;
 fn main(){
 
-	let _maxseed = 0..4295032859u64;
+	let _maxseed = 0..4295032859u64; // (65563 << 16 | 65563)
 	//let _m = 0..4u64;
 	fn setup(mut _seed: u64) -> u64{
 	let mut state = 0;
